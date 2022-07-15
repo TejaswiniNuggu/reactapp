@@ -7,6 +7,7 @@ import {API} from "./global";
 export function MovieList() {
   const [movieList, setMoiveList]= useState([]);
   const getMovies=()=>{
+    
     fetch(`${API}/movies`,
   {method:"GET",})
   .then((data) => data.json())
