@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TextField from '@mui/material/TextField';
 import { useForm } from "react-hook-form";
-
+import {API} from "./global";
 
 // export function AddMovie({ movieList, setMoiveList }) {
   export function AddMovie() {
@@ -13,7 +13,7 @@ import { useForm } from "react-hook-form";
   const addMovie =  ()=>{
     const newMovie = { name,  poster,summary,rating,  trailer };
     console.log(newMovie);
-    fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies`,{
+    fetch(`${API}/movies`,{
   method:"POST",
   body: JSON.stringify(newMovie),
   headers:{

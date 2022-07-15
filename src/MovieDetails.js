@@ -2,13 +2,17 @@ import Button from "@mui/material/Button";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import {API} from "./global";
+
+
+
 export function MovieDetails() {
   const { id } = useParams();
   // const movie = movieList[id];
   // console.log(movie);
   const [movie, setMoive]= useState({});
   useEffect(()=>{
-    fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies/${id}`,
+    fetch(`${API}/movies/${id}`,
     {method:"GET",})
     .then((data) => data.json())
     .then((mv) =>setMoive(mv));

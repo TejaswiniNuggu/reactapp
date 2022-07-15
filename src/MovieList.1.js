@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { Movie } from "./Movie";
-
+import {API} from "./global";
 
 // export function MovieList({ movieList, setMoiveList }) {
 //fetching data without props
 export function MovieList() {
   const [movieList, setMoiveList]= useState([]);
   const getMovies=()=>{
-    fetch("https://62d041ffd9bf9f170586ac03.mockapi.io/movies",
+    fetch(`${API}/movies`,
   {method:"GET",})
   .then((data) => data.json())
   .then((mvs) => setMoiveList(mvs));
@@ -18,7 +18,7 @@ export function MovieList() {
 useEffect(()=> getMovies(),[])
 
 const deleteMovie = (id) => {
-  fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies/${id}`,
+  fetch(`${API}/movies/${id}`,
   {method:"DELETE",})
   .then((data) => data.json())
   .then(()=>getMovies());
