@@ -3,6 +3,7 @@ import TextField from '@mui/material/TextField';
 import { useForm } from "react-hook-form";
 import {API} from "./global";
 
+
 // export function AddMovie({ movieList, setMoiveList }) {
   export function AddMovie() {
   const [name, setName] = useState("");
