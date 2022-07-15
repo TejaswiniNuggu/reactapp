@@ -1,0 +1,90 @@
+[
+    {
+     "id": "100",
+     "name": "RRR",
+     "poster": "https://im.rediff.com/movies/2022/jan/03rrr1.jpg?w=670&h=900",
+     "rating": "8.8",
+     "summary": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
+     "trailer": "https://www.youtube.com/embed/KylLy-1G08U"
+    },
+    {
+     "id": "101",
+     "name": "RRR",
+     "poster": "https://im.rediff.com/movies/2022/jan/03rrr1.jpg?w=670&h=900",
+     "rating": "8.8",
+     "summary": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
+     "trailer": "https://www.youtube.com/embed/KylLy-1G08U"
+    },
+    {
+     "id": "102",
+     "name": "RRR",
+     "poster": "https://im.rediff.com/movies/2022/jan/03rrr1.jpg?w=670&h=900",
+     "rating": "8.8",
+     "summary": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
+     "trailer": "https://www.youtube.com/embed/KylLy-1G08U"
+    },
+    {
+     "id": "103",
+     "name": "RRR",
+     "poster": "https://im.rediff.com/movies/2022/jan/03rrr1.jpg?w=670&h=900",
+     "rating": "8.8",
+     "summary": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
+     "trailer": "https://www.youtube.com/embed/KylLy-1G08U"
+    },
+    {
+     "id": "104",
+     "name": "RRR",
+     "poster": "https://im.rediff.com/movies/2022/jan/03rrr1.jpg?w=670&h=900",
+     "rating": "7",
+     "summary": "RRR is an upcoming Indian Telugu-language period action drama film directed by S. S. Rajamouli, and produced by D. V. V. Danayya of DVV Entertainments.",
+     "trailer": "https://www.youtube.com/embed/KylLy-1G08U"
+    },
+    {
+     "name": "name 105",
+     "poster": "poster 105",
+     "rating": 78,
+     "summary": "summary 105",
+     "trailer": "trailer 105",
+     "id": "105"
+    },
+    {
+     "name": "name 105",
+     "poster": "poster 105",
+     "rating": 17,
+     "summary": "summary 105",
+     "trailer": "trailer 105",
+     "id": "105"
+    },
+    {
+     "name": "name 106",
+     "poster": "poster 106",
+     "rating": 49,
+     "summary": "summary 106",
+     "trailer": "trailer 106",
+     "id": "106"
+    },
+    {
+     "name": "name 106",
+     "poster": "poster 106",
+     "rating": 66,
+     "summary": "summary 106",
+     "trailer": "trailer 106",
+     "id": "106"
+    },
+    {
+     "name": "name 107",
+     "poster": "poster 107",
+     "rating": 48,
+     "summary": "summary 107",
+     "trailer": "trailer 107",
+     "id": "107"
+    },
+    {
+     "name": "name 108",
+     "poster": "poster 108",
+     "rating": 61,
+     "summary": "summary 108",
+     "trailer": "trailer 108",
+     "id": "108"
+    }
+   ]
