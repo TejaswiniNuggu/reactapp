@@ -22,7 +22,8 @@ export function Movie({ movie, id , deleteButton}) {
     <Card className="movie-container">
       <img src={movie.poster} alt={movie.name} className="movie-poster" />
       <div className="seg2">
-        <h2 className="movie-name">{movie.name} <IconButton onClick={() => navigate(`/moviedetails/${id}`)} color="primary" aria-label="movie details">
+        <h2 className="movie-name">{movie.name} 
+        <IconButton onClick={() => navigate(`/moviedetails/${id}`)} color="primary" aria-label="movie details">
           <InfoIcon />
         </IconButton>  <IconButton onClick={() => setShow(!show)} color="primary" aria-label="movie details">
             {show ? <ExpandLessIcon /> : <ExpandMoreIcon />}

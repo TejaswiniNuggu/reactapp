@@ -8,6 +8,7 @@ import {API} from "./global";
 
 export function MovieDetails() {
   const { id } = useParams();
+  // console.log(id)
   // const movie = movieList[id];
   // console.log(movie);
   const [movie, setMoive]= useState({});
@@ -16,9 +17,9 @@ export function MovieDetails() {
     {method:"GET",})
     .then((data) => data.json())
     .then((mv) =>setMoive(mv));
-  
-  },[id]);
 
+  },[id]);
+console.log(setMoive)
   const styles = {
     color: movie.rating > 8 ? "green" : "red",
   };
