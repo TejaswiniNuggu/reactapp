@@ -8,7 +8,7 @@ export function MovieList() {
   const [movieList, setMoiveList]= useState([]);
   const getMovies=()=>{
     
-    fetch(`${API}/movies`,
+    fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies`,
   {method:"GET",})
   .then((data) => data.json())
   .then((mvs) => setMoiveList(mvs));

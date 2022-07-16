@@ -13,7 +13,7 @@ export function MovieDetails() {
   // console.log(movie);
   const [movie, setMoive]= useState({});
   useEffect(()=>{
-    fetch(`${API}/movies/${id}`,
+    fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies/${id}`,
     {method:"GET",})
     .then((data) => data.json())
     .then((mv) =>setMoive(mv));

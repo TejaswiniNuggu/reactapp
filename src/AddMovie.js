@@ -15,7 +15,7 @@ import {API} from "./global";
   const addMovie =  ()=>{
     const newMovie = { name,  poster,summary,rating,  trailer };
     console.log(newMovie);
-    fetch(`${API}/movies`,
+    fetch(`https://62d041ffd9bf9f170586ac03.mockapi.io/movies`,
     {
   method:"POST",
   body: JSON.stringify(newMovie),
