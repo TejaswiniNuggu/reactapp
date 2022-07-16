@@ -63,7 +63,7 @@ export default function App() {
           <Button color="inherit" onClick={() => navigate(`/movies`)}>Movie</Button>
           <Button color="inherit" onClick={() => navigate(`/color`)}>Add color</Button>
           <Button color="inherit" onClick={() => navigate(`/rafdfasdfasd`)}>Random Detail</Button>
-          <Button color="inherit" onClick={() => navigate(`/addmovie`)}>Add Movie</Button>
+          <Button color="inherit" onClick={() => navigate(`/movies/add`)}>Add Movie</Button>
           <Button  startIcon={mode=="light"?<Brightness4Icon /> : <Brightness7Icon />}color="inherit" onClick={() => setMode(mode=="light"?"dark":"light")}>
          {mode=="light"?"dark":"light"} mode
             </Button>
@@ -88,7 +88,7 @@ export default function App() {
         <Route path="/films" element={<Navigate replace to="/movies" />} />
         <Route path="/moviedetails/:id" element={<MovieDetails />} />
         {/* <Route path="/addmovie" element={<AddMovie movieList={movieList} setMoiveList={setMoiveList} />} /> */}
-        <Route path="/addmovie" element={<AddMovie />} />
+        <Route path="/movies/add" element={<AddMovie />} />
         <Route path="/color" element={<AddColor />} />
         <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<Navigate replace to="/404" />} />

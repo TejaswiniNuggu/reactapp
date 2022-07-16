@@ -1,4 +1,5 @@
-import { useState } from "react";
+// import { useState } from "react";
+import { useEffect, useState } from "react";
 import TextField from '@mui/material/TextField';
 import { useForm } from "react-hook-form";
 import {API} from "./global";
@@ -14,7 +15,8 @@ import {API} from "./global";
   const addMovie =  ()=>{
     const newMovie = { name,  poster,summary,rating,  trailer };
     console.log(newMovie);
-    fetch(`${API}/movies`,{
+    fetch(`${API}/movies`,
+    {
   method:"POST",
   body: JSON.stringify(newMovie),
   headers:{
@@ -30,7 +32,7 @@ import {API} from "./global";
         <input onChange={(event) => setSummary(event.target.value)} type="text" placeholder="Summary" />
         <input onChange={(event) => setRating(event.target.value)} type="text" placeholder="Rating" />
         <input onChange={(event) => setTrailer(event.target.value)} type="text" placeholder="Trailer" />
-        <button onClick= {addMovie}
+        <button onClick={addMovie}
         variant="contained">Add Movie</button>
       </div>
 
